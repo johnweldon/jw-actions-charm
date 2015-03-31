@@ -7,3 +7,6 @@ tags:
   # Replace "misc" with one or more whitelisted tags from this list:
   # https://juju.ubuntu.com/docs/authors-charm-metadata.html#charm-metadata
   - ops
+provides:
+    floober:
+        interface: barrer
