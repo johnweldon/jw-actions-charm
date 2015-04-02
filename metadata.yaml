@@ -1,5 +1,5 @@
-name: jw-charm-test
-summary: Test Charm
+name: jw-actions-charm
+summary: Test Charm for Actions
 maintainer: John Weldon <johnweldon4@gmail.com>
 description: |
     this is a test charm for various uses
@@ -8,5 +8,5 @@ tags:
   # https://juju.ubuntu.com/docs/authors-charm-metadata.html#charm-metadata
   - ops
 provides:
-    floober:
-        interface: barrer
+    actionsstuff:
+        interface: acstuff
